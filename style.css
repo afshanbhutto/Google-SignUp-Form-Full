@@ -1,0 +1,144 @@
+*{
+    margin: 0 auto;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-size: cover;
+    background-position: center center;
+    font-family: cursive;
+      
+}
+.wrapper{
+    margin-top:2px;
+    position: absolute;
+    width:800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+}
+.wrapper .form  .body{
+    position: relative;
+}
+.form{
+    display: flex;
+    background: white;
+    padding: 1.8rem;
+    margin-bottom: 2%;
+}
+.main{
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+}
+.create{
+    font-size: 13px;
+    flex-direction: column;
+    font-display: none;
+    font-style:inherit
+}
+
+input[type=text], input[type=password] {
+    padding: 8px;
+    margin: 10px 10px;
+    box-sizing: border-box;
+  }
+  input[type=text]:focus, input[type=password]:focus ,input[type=email]:focus {
+    outline: none;
+    border: 2px solid rgb(51, 51, 253);
+  }
+  input[type=email]{
+    padding: 8px;
+    margin: 10px 10px;
+    width: 87.5%;
+  }
+  p{
+    margin:1px 10px;    
+  }
+  .img{
+      margin: 10px 10px;
+      flex-direction: column;
+      order:2;
+  }
+  .logo{
+      width: 50px;
+      height: 50px;
+      float: left;
+      margin: 20px;
+  }
+  figure{
+      padding: 20px;
+      margin: 20px 10px;
+  }
+.instead{
+    margin-top:8px;
+    margin-left:10px;
+}
+.next{
+    margin-top:8px;
+    margin-right: 50px;
+}
+.btn{
+    background-color: rgb(51, 51, 253);
+    border-radius: 5px;
+    padding: 10px 30px;
+    border: none
+}
+ a{
+    color:rgb(51, 51, 253);
+    text-decoration: none;
+}
+.sign{
+    align-content: space-between;
+    display: flex;
+}
+  .in:hover{
+      cursor: pointer;
+      background-color: rgb(217, 230, 243);
+  }
+  .btn:hover{
+      cursor: pointer;
+  }
+  figcaption{
+    padding: 2px;
+    text-align: center;
+  }
+label{
+    position: absolute;
+    display: none;
+    color: white
+}
+input:focus + label,
+input:valid +label
+  {
+      display: block;
+      top: -8px;
+      transform: scale(1.5);
+      color: blue;
+      font-size: 10px;
+  }
+  .foot{
+    margin-top:2px;
+    position: absolute;
+    top: 96%;
+    left: 40.8%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+.foot .footbody{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.footbody #language{
+    border: 1px solid #8d8989;
+}
+.foota{
+    padding-left: 1px;
+    padding-right: 1px;
+    margin: 0px;
+
+}
